@@ -3,7 +3,7 @@
 
 import random  #library for random number in python
 
-computer_number = random.randint(1,3)  #computer generates a random number between 1-10
+computer_number = random.randint(1,10)  #computer generates a random number between 1-10
 
 while True:          #keeps running until the correct answer is guessed
     user_guess = int(input("Guess a number between 1-10"))   #user guesses a number between 1-10
